@@ -6,10 +6,10 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <projectUrl>http://www.valtech.nl/</projectUrl>
+    <projectUrl>https://github.com/RvanDalen/Lumi.Foundation.PipelineValueProvider</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <copyright>Copyright 2017</copyright>
-    <tags>Sitecore Mvc Glass ValueProvider Valtech</tags>
+    <tags>Sitecore Mvc Glass ValueProvider Lumi</tags>
   </metadata>
 </package>
