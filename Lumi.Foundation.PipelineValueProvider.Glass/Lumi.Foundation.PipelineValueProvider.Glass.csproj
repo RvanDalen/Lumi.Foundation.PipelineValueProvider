@@ -96,7 +96,7 @@
     </Content>
     <None Include="App_Config\Include\Lumi.Foundation.PipelineValueProvider.config" />
     <None Include="packages.config" />
-    <None Include="Valtech.Foundation.PipelineValueProvider.Glass.nuspec" />
+    <None Include="Lumi.Foundation.PipelineValueProvider.Glass.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
