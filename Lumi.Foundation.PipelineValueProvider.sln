@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lumi.Foundation.PipelineValueProvider", "Lumi.Foundation.PipelineValueProvider\Lumi.Foundation.PipelineValueProvider.csproj", "{27A8E7C4-F090-40D2-A7E0-C5367BC6A86B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lumi.Foundation.PipelineValueProvider.Tests", "Lumi.Foundation.PipelineValueProvider.Tests\Lumi.Foundation.PipelineValueProvider.Tests.csproj", "{2FE17865-C0D1-4F82-A4C1-3A7E6E6199D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lumi.Foundation.PipelineValueProvider.Glass", "Lumi.Foundation.PipelineValueProvider.Glass\Lumi.Foundation.PipelineValueProvider.Glass.csproj", "{ADAB0284-A1F8-4241-A851-1719AC27432F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{06DF7A6C-536E-4DB4-87BC-E031DB8593DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{0CA6AD61-7122-44E1-950E-4FFF3C2134AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lumi.Foundation.PipelineValueProvider.Glass.Tests", "Lumi.Foundation.PipelineValueProvider.Glass.Tests\Lumi.Foundation.PipelineValueProvider.Glass.Tests.csproj", "{D4DF3EF6-AC70-462C-98A9-BA32AC1BA9C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27A8E7C4-F090-40D2-A7E0-C5367BC6A86B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A8E7C4-F090-40D2-A7E0-C5367BC6A86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A8E7C4-F090-40D2-A7E0-C5367BC6A86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A8E7C4-F090-40D2-A7E0-C5367BC6A86B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FE17865-C0D1-4F82-A4C1-3A7E6E6199D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE17865-C0D1-4F82-A4C1-3A7E6E6199D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE17865-C0D1-4F82-A4C1-3A7E6E6199D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE17865-C0D1-4F82-A4C1-3A7E6E6199D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADAB0284-A1F8-4241-A851-1719AC27432F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADAB0284-A1F8-4241-A851-1719AC27432F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADAB0284-A1F8-4241-A851-1719AC27432F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADAB0284-A1F8-4241-A851-1719AC27432F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4DF3EF6-AC70-462C-98A9-BA32AC1BA9C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4DF3EF6-AC70-462C-98A9-BA32AC1BA9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4DF3EF6-AC70-462C-98A9-BA32AC1BA9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4DF3EF6-AC70-462C-98A9-BA32AC1BA9C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27A8E7C4-F090-40D2-A7E0-C5367BC6A86B} = {0CA6AD61-7122-44E1-950E-4FFF3C2134AD}
+		{2FE17865-C0D1-4F82-A4C1-3A7E6E6199D4} = {06DF7A6C-536E-4DB4-87BC-E031DB8593DC}
+		{ADAB0284-A1F8-4241-A851-1719AC27432F} = {0CA6AD61-7122-44E1-950E-4FFF3C2134AD}
+		{D4DF3EF6-AC70-462C-98A9-BA32AC1BA9C4} = {06DF7A6C-536E-4DB4-87BC-E031DB8593DC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74FB56F0-31CB-487E-A7A7-1945CB9F9D3B}
+	EndGlobalSection
+EndGlobal
